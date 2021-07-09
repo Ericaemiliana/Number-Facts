@@ -15,7 +15,7 @@ Use the API to get 4 facts on your favorite number. Once you have them all, put 
 
 (Note: You’ll need to make multiple requests for this.)
 
-### Solution key
+### Solution key:
 
 ```
 
