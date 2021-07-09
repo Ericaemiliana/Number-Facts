@@ -2,7 +2,7 @@
 # Number Facts 
 
 
-An small program using JS Promises
+An small program using JS Promises.
 This program is an assignment from the JavaScript Promises module in the Sprigboard Software Engineer Bootcamp
 
 ## Instructions: 
@@ -17,6 +17,8 @@ Use the API to get 4 facts on your favorite number. Once you have them all, put 
 
 ## Solution key
 
+```
+
 Promise.all(
   Array.from({ length: 7 }, () => {
     return $.getJSON(`${baseURL}/${favNumber}?json`);
@@ -24,3 +26,5 @@ Promise.all(
 ).then((facts) => {
   facts.forEach((data) => $("body").append(`<p>${data.text}</p>`));
 });
+
+```
