@@ -5,7 +5,7 @@
 An small program using JS Promises.
 This program is an assignment from the JavaScript Promises module in the Sprigboard Software Engineer Bootcamp
 
-## Instructions: 
+### Instructions: 
 
 Make a request to the Numbers API (http://numbersapi.com/) to get a fact about your favorite number. (Make sure you get back JSON by including the json query key, specific to this API. Details.
 
@@ -15,7 +15,7 @@ Use the API to get 4 facts on your favorite number. Once you have them all, put 
 
 (Note: You’ll need to make multiple requests for this.)
 
-## Solution key
+### Solution key
 
 ```
 
